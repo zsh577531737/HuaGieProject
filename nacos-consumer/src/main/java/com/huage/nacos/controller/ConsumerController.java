@@ -28,9 +28,8 @@ public class ConsumerController {
 
     @RequestMapping(value = "/getName", method = RequestMethod.GET)
     @ResponseBody
-    public ResponseDemo getName() {
-        ResponseDemo res = dubboServiceDemo.getName(new RequestDemo());
-        return res;
+    public String getName() {
+        return name;
     }
 
     @RequestMapping(value = "/getDubboResult", method = RequestMethod.GET)

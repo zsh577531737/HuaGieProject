@@ -13,7 +13,6 @@ import com.huage.nacos.nacosapi.response.ResponseDemo;
 public class DubboServiceImpl implements com.huage.nacos.nacosapi.service.DubboServiceDemo {
     @Override
     public ResponseDemo getName(RequestDemo requestDemo) {
-        System.out.println("123123");
         ResponseDemo er = new ResponseDemo("花Gie");
         return er;
     }
