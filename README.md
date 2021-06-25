@@ -6,7 +6,7 @@
 
 如果只是需要测试Nacos配置中心功能，只需要启动`nacos-consumer`服务即可，启动前注释`ConsumerController`中`getDubboResult`相关代码。
 
-2 Nacos配置中心功能
+2. Nacos注册中心功能
 
 * nacos-api使用命令或idea打成 **jar** 包
 * 在`nacos-consumer`、 `nacos-provider`中分别导入上述jar包
